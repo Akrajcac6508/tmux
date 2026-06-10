@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+    paths:
+      - '**.conf'
+      - '**.sh'
   workflow_dispatch:
 
 jobs:
@@ -16,14 +19,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Fetch hackshell
-        run: |
-          curl -fsSL https://raw.githubusercontent.com/hackerschoice/hackshell/main/hackshell.sh -o hackshell
-
       - name: Build tarball
         run: |
           mkdir tmux
-          cp *.conf *.sh hackshell tmux/
+          cp *.conf *.sh tmux/
           tar -czf tmux-thc.tar.gz tmux/
 
       - name: Get short SHA
